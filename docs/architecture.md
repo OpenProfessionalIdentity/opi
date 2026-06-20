@@ -1,37 +1,44 @@
-# Architecture
+# OPI Architecture
 
-## Core Concept
+## Purpose
 
-The central object of the Open Professional Identity ecosystem is the **Professional Identity**.
+The purpose of OPI is to transform fragmented professional information into a single Professional Identity that can be consumed by both humans and software systems.
 
-A Professional Identity is a structured, portable, and trusted representation of a person's professional experience, skills, projects, achievements, and other publicly shared professional information.
+## High-Level Information Flow
 
-Everything else in OPI exists to create, maintain, publish, or consume a Professional Identity.
+```
+Identity Sources
+        │
+        ▼
+Professional Identity
+        │
+        ▼
+Identity Endpoints
+        │
+        ▼
+Consumers
+```
 
----
+## Components
 
-## High-Level Architecture
+### Identity Sources
 
-                           Publisher
+Existing platforms and documents that contain professional information.
 
-        LinkedIn   GitHub   Upwork   CV   Portfolio
-             │        │        │      │        │
-             └────────┴────────┴──────┴────────┘
-                              │
-                              ▼
-                      Identity Sources
-                              │
-                              ▼
-                     OPI Builder (future)
-                              │
-                              ▼
-                 Professional Identity
-                     (Core Object)
-                              │
-              ┌───────────────┼───────────────┐
-              │               │               │
-              ▼               ▼               ▼
-      Human Interface     API Endpoint    AI Interface
-              │               │               │
-              ▼               ▼               ▼
-         Portfolio        Applications     AI Agents
+Examples include LinkedIn, GitHub, resumes, portfolios, blogs, certifications, publications, and freelance platforms.
+
+### Professional Identity
+
+The core object of the OPI ecosystem.
+
+It represents the trusted, structured, and portable professional identity owned by the publisher.
+
+### Identity Endpoints
+
+Interfaces through which a Professional Identity can be consumed.
+
+Examples may include web pages, structured files, APIs, or AI interfaces.
+
+### Consumers
+
+Humans and software systems that access and use Professional Identities.
