@@ -20,19 +20,21 @@ There should be a better way.
 
 ## Our vision
 
-Open Professional Identity (OPI) is an open standard for publishing professional knowledge.
+Open Professional Identity (OPI) is an open standard for creating portable professional identities that can be understood by both humans and AI systems.
 
 It enables professionals to aggregate their public professional information into a single structured identity that can be understood by both humans and AI systems.
+
+Instead of maintaining multiple disconnected profiles, professionals maintain one trusted identity that can be consumed everywhere.
 
 OPI does not replace LinkedIn, GitHub, personal websites, resumes, or portfolios.
 
 It connects them.
 
-The professional remains the owner of their identity.
+Unlike closed platforms, OPI gives professionals full ownership and control over their professional identity.
 
 ---
 
-## Two types of users
+## Two roles in the ecosystem
 
 ### Publishers
 
@@ -47,6 +49,18 @@ Humans and software systems that want to understand a professional.
 Consumers may include recruiters, headhunters, employers, clients, investors, conference organizers, marketplaces, ATS systems, and AI agents.
 
 Instead of searching through multiple websites and documents, they consume a single professional identity.
+
+---
+
+## Why Open?
+
+Professional identity should not belong to a single platform.
+
+It should belong to the professional.
+
+Open standards encourage interoperability, transparency, and innovation.
+
+Anyone should be able to build tools that understand professional identities without asking permission from a central authority.
 
 ---
 
