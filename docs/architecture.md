@@ -1,11 +1,13 @@
-# Architecture
+# Core Architecture
 
-## Core Concept
+## The Core Object
 
-The core artifact of Open Professional Identity is the Professional Identity.
+The central object of the Open Professional Identity ecosystem is the **Professional Identity**.
 
-A Professional Identity is a structured, portable, and trusted representation of a person's professional knowledge.
+A Professional Identity is a structured, portable, and trusted representation of a person's professional experience, skills, projects, achievements, and other publicly shared professional information.
 
-It is built from one or more Identity Sources and published through one or more Identity Endpoints.
+A Professional Identity is owned and curated by the professional.
 
-Everything else in OPI exists to create, maintain, or consume a Professional Identity.
+It may be built from multiple Identity Sources and exposed through one or more Identity Endpoints.
+
+Everything else in OPI exists to create, maintain, publish, or consume a Professional Identity.
